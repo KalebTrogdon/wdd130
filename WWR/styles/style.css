@@ -23,34 +23,57 @@ body {
     background-color: #fcfbfb; 
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:#0E6CEE;
+}
+nav a{
+    color: #0E6CEE
 }
 nav a:hover {
-    background-color: rgb(243, 10, 10);
-    color: #d9c2a3;
+    background-color: #0E6CEE;
+    color: #2A2D34;
     text-decoration: none;
 }
+.home-title{
+    color: #0E6CEE
+}
+h4{
+    color:#0E6CEE
+}
 .book, .join{
-    background-color: black;
-    color: #d9c2a3;
+    background-color: #0E6CEE;
+    color: #2A2D34;
     text-decoration: none;
 }
 
 .book:hover, .join:hover{
-    background-color: rgb(243, 10, 10);
+    background-color: white;
+    color:black
+}
+.msg h2{
+    color: #0E6CEE;
+}
+.msg p{
+    color: #0E6CEE;
 }
 
 #background{
-    background-color: rgb(19, 78, 133);
+    background-color: white;
 }
 
 .msg{
-    background-color: rgba(38, 123, 129, 0.349);
+    background-color: #FF5964;
 }
 
 footer{
-    background-color: rgb(17, 31, 231);
+    background-color: #0E6CEE;
+    color: black;
     text-decoration: none;
+}
+footer a{
+    color: #0E6CEE;
+}
+footer a:hover{
+    color:#0E6CEE
 }
 .icon {
     width: 80px;
