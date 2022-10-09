@@ -34,7 +34,7 @@ nav a:hover {
     text-decoration: none;
 }
 .home-title{
-    color: #0E6CEE
+    color: black
 }
 h4{
     color:#0E6CEE
@@ -70,7 +70,7 @@ footer{
     text-decoration: none;
 }
 footer a{
-    color: #0E6CEE;
+    color: #FF5964;
 }
 footer a:hover{
     color:#0E6CEE
