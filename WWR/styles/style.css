@@ -23,7 +23,7 @@ body {
     background-color: #fcfbfb; 
 }
 header {
-    background-color:#0E6CEE;
+    background-color:#2A2D34;
 }
 nav a{
     color: #0E6CEE
@@ -40,7 +40,7 @@ h4{
     color:#0E6CEE
 }
 .book, .join{
-    background-color: #0E6CEE;
+    background-color: white;
     color: #2A2D34;
     text-decoration: none;
 }
