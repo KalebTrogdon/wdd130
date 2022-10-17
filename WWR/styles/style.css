@@ -24,8 +24,8 @@ main section {
     height: 725px;
 }
 body {
-    background-color: #fcfbfb; 
-    font-family: Raleway, Arial, sans-serif;
+    background-color: white; 
+    font-family: Roboto, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -35,7 +35,7 @@ h2 {
 }
 
 header {
-    background-color:#2A2D34;
+    background-color:black;
 }
 nav a{
     text-decoration: none;
@@ -45,7 +45,7 @@ nav a{
 }
 nav a:hover {
     background-color: #0E6CEE;
-    color: #2A2D34;
+    color: black;
     text-decoration: none;
 }
 .home-title{
@@ -75,7 +75,7 @@ h4{
     color: #0E6CEE;
 }
 .msg p{
-    color: #0E6CEE;
+    color: black;
     font-size: .8em;
     padding-bottom: 15px;
 }
@@ -98,10 +98,10 @@ footer{
     margin-top: 200px;
 }
 footer a{
-    color: #FF5964;
+    color: black;
 }
 footer a:hover{
-    color:#0E6CEE
+    color:#FF5964
 }
 .icon {
     width: 80px;
