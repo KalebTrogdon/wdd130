@@ -1,7 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz@1,6..96&family=Lato:ital,wght@1,100&display=swap');
+
+
 div {
     text-align: center;
     max-width: 1600px;
     margin: 0 auto
+}
+
+#content {
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#hero-msg h1 {
+    text-align: center;
+    color: white;
+}
+
+#hero-msg h4 {
+    text-align: center;
+    color: white;
+    
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: white;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+body {
+    background-color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -9,6 +56,110 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     z-index: -1;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.book{
+    background-color: white;
+    color: #000000;
+    text-decoration: none; 
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.join {
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.join:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.msg {
+    background-color: #FF5964;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+footer {
+    background-color: #0E6CEE;
+    color: black;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 40px;
+    padding-top: 10px
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.home-title {
+    color: #0E6CEE;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 10px
+}
+
+h4 {
+    color: #0E6CEE
+}
+
+.msg h2 {
+    color: #0E6CEE;
+}
+
+.msg p {
+    color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer p {
+    color: white;
+}
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: black
+}
+
+footer p a:hover {
+    text-decoration: underline;
 }
 
 #logo_link {
@@ -23,17 +174,6 @@ nav {
     justify-content: space-around;
 }
 
-nav a {
-    text-decoration: none;
-    color: black;
-    text-align: center;
-}
-
-nav a:hover {
-    background-color: white;
-    color: black;
-    text-decoration: none;
-}
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -73,13 +213,6 @@ main.home-grid {
     grid-row: 2/3;
 }
 
-#background {
-    height: 725px;
-    background-color: white;
-    grid-column: 1/11;
-    grid-row: 4/9;
-}
-
 .card-img {
     border: 10px solid #d9c2a3;
     transition: transform .5s;
@@ -90,30 +223,12 @@ main.home-grid {
     opacity: .6;
     transform: scale(1.1);
 }
-.msg {
-    background-color: #FF5964;
-    line-height: 1.5em;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-}
 
 .mountains {
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
-}
-
-.msg h2 {
-    color: #0E6CEE;
-}
-
-.msg p {
-    color: black;
-    font-size: .8em;
-    padding-bottom: 15px;
 }
 
 .card-img,
@@ -124,96 +239,15 @@ main.home-grid {
     width: 100%;
 }
 
-#hero-msg h4 {
-    text-align: center;
-    color: white;
-    
-}
-
-#hero-msg h1 {
-    text-align: center;
-    color: white;
-}
-
-.button-box {
-    text-align: center;
-}
-
-main section {
-    text-align: center;
-}
-
-body {
-    background-color: white;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-}
-
 h2 {
     margin: 0;
-}
-
-.home-title {
-    color: #0E6CEE;
-    font-family: Roboto, Helvetica, sans-serif;
-    font-size: 50px;
-    margin-top: 10px
-}
-
-h4 {
-    color: #0E6CEE
-}
-
-.book,
-.join {
-    background-color: white;
-    color: #000000;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-
-.book:hover,
-.join:hover {
-    background-color: #000000;
-    color: white;
-}
-
-footer {
-    background-color: #0E6CEE;
-    color: black;
-    text-decoration: none;
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer a {
-    color: black;
-}
-
-footer a:hover {
-    color: black
-}
-
-.icon {
-    width: 40px;
-    padding-top: 10px
 }
 
 footer p {
     font-size: 1.2em;
 }
 
-footer p a:hover {
-    text-decoration: underline;
-}
+
 
 footer .social img {
     padding-top: 30px
@@ -223,6 +257,49 @@ main section img {
     box-sizing: border-box;
 }
 
+.overlap-group3{
+
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/638c00a2dcf0cf5a931f8891/releases/638c00ab30df8a376d2a6661/img/rsz-nano-1@1x.png) ;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 401px;
+    margin-left: 50px;
+    margin-top: 16px;
+    min-width: 1298px;
+    padding: 0px 0;
+}
+.overlap-group1{
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/638c00a2dcf0cf5a931f8891/releases/638c00ab30df8a376d2a6661/img/nanocancer-1@1x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 401px;
+    margin-left: 50px;
+    margin-top: 20px;
+    min-width: 1298px;
+    padding: 0px 0;
+}
+.valign-text-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.align-text-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nanotechnology-is-al{
+    height: 400px;
+    letter-spacing: 10;
+    line-height: normal;
+    width: 1298px;
+}
+.science-and-nano{
+    height: 400px;
+    letter-spacing: 10;
+    line-height: normal;
+    width: 1298px;
+}
 @media screen and (max-width: 900px) {
 
     #hero,
