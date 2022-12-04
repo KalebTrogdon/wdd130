@@ -15,6 +15,8 @@ nav a {
     text-decoration: none;
     color: black;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 #hero-msg h1 {
@@ -56,6 +58,9 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     z-index: -1;
+    align-items: center;
+    min-width: 1298px;
+   
 }
 
 nav a:hover {
@@ -112,6 +117,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .logo {
@@ -263,20 +269,22 @@ main section img {
     background-position: 50% 50%;
     background-size: cover;
     height: 401px;
-    margin-left: 50px;
+    margin-left: 0px;
     margin-top: 16px;
     min-width: 1298px;
     padding: 0px 0;
+    display: flex;
 }
 .overlap-group1{
     background-image: url(https://anima-uploads.s3.amazonaws.com/projects/638c00a2dcf0cf5a931f8891/releases/638c00ab30df8a376d2a6661/img/nanocancer-1@1x.png);
     background-position: 50% 50%;
     background-size: cover;
     height: 401px;
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-left: 0px;
+    margin-top: 30px;
     min-width: 1298px;
     padding: 0px 0;
+    display: flex;
 }
 .valign-text-middle{
     display: flex;
