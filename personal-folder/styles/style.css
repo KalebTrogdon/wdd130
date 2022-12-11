@@ -264,6 +264,35 @@ main section img {
     box-sizing: border-box;
 }
 
+.overlap-group-4{
+    height: 674px;
+    left: 143px;
+    position: absolute;
+    top: 300px;
+    width: 1228px;
+}
+
+.we-are-the-leading{
+    height: 250px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -220px;
+    width: 1228px;
+}
+
+.providing-those-who{
+    height: 178px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 74px;
+    margin-top: 700px;
+    width: 1228px;
+}
+
+
+
 .overlap-group3{
 
     background-image: url(https://anima-uploads.s3.amazonaws.com/projects/638c00a2dcf0cf5a931f8891/releases/638c00ab30df8a376d2a6661/img/rsz-nano-1@1x.png) ;
