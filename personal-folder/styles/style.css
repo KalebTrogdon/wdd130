@@ -58,7 +58,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     z-index: -1;
-    align-items: center;
+    align-items: cover;
     min-width: 1298px;
    
 }
@@ -112,11 +112,12 @@ footer {
     background-color: #0E6CEE;
     color: black;
     text-decoration: none;
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1000px auto;
     justify-content: space-around;
-    align-items: center;
+    align-items: cover;
     
 }
 
@@ -268,23 +269,19 @@ main section img {
     background-image: url(https://anima-uploads.s3.amazonaws.com/projects/638c00a2dcf0cf5a931f8891/releases/638c00ab30df8a376d2a6661/img/rsz-nano-1@1x.png) ;
     background-position: 50% 50%;
     background-size: cover;
-    height: 401px;
-    margin-left: 0px;
-    margin-top: 16px;
-    min-width: 1298px;
-    padding: 0px 0;
-    display: flex;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .overlap-group1{
     background-image: url(https://anima-uploads.s3.amazonaws.com/projects/638c00a2dcf0cf5a931f8891/releases/638c00ab30df8a376d2a6661/img/nanocancer-1@1x.png);
     background-position: 50% 50%;
     background-size: cover;
-    height: 401px;
-    margin-left: 0px;
-    margin-top: 30px;
-    min-width: 1298px;
-    padding: 0px 0;
-    display: flex;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .valign-text-middle{
     display: flex;
@@ -301,12 +298,97 @@ main section img {
     letter-spacing: 10;
     line-height: normal;
     width: 1298px;
+    text-align: center;
+    
 }
 .science-and-nano{
     height: 400px;
     letter-spacing: 10;
     line-height: normal;
     width: 1298px;
+
+}
+.ethical-container {
+    align-items: flex-start;
+    display: flex;
+    height: 233px;
+    min-width: 1371px;
+}
+.is-this-ethical {
+    align-self: flex-end;
+    height: 225px;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 1132px;
+}
+.flex-row {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 38px;
+    min-width: 1371px;
+}
+.overlap-group{
+    height: 424px;
+    position: relative;
+    width: 1132px;
+}
+.what-your-doing{
+    height: 254px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 1132px;
+}
+.is-this-safe{
+    height: 176px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 248px;
+    width: 1132px;
+}
+.cancer-container{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 81px;
+    margin-top: 4px;
+    min-height: 389px;
+    width: 239px;
+}
+.rsz_nanocancer-1{
+    height: 160px;
+    object-fit: cover;
+    width: 250px;
+}
+.rsz_1cancer-1{
+    height: 160px;
+    object-fit: cover;
+    width: 250px;
+}
+.flex-col{
+    align-items: flex-start;
+    display: flex;
+    margin-top: 38px;
+    min-width: 1371px;
+}
+.rsz_fostering-studen{
+    height: 160px;
+    object-fit: cover;
+    width: 250px;
+    margin-left: -50px;
+}
+.ethical{
+    height: 356px;
+    left: 450px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 550px;
+    width: 1132px;
 }
 @media screen and (max-width: 900px) {
 
